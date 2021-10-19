@@ -13,5 +13,5 @@ python3 kmer-count/kmer-coun.py -f <path/to/file_in.fasta> -o <path/to/file_out_
 
 ## Example
 ```bahs
-python3 kmer-count/kmer-coun.py -f input.fasta -o kmers_ -k 5,6,7
+python3 kmer-count/kmer-count.py -f input.fasta -o kmers_ -k 5,6,7
 ```
