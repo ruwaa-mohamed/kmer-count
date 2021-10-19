@@ -13,7 +13,7 @@ import gzip
 args = None
 def get_args():
 	parser = argparse.ArgumentParser(
-		description="A tool that counts the kmers per sequnce in a multi-FASTA file and return the results in CSV format.",
+		description="A standalone Python tool that counts the kmers per sequence in a multi-FASTA file and return the results in CSV format.",
 		epilog="Ex. python kmer-count.py -f <path/to/file_in.fasta> -o <path/to/file_out_prefix_> -k <int>"
 	)
 
